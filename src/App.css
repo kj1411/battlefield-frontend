@@ -1,0 +1,47 @@
+.App {
+  background-image: linear-gradient(rgba(16, 16, 16, .6), rgba(16, 16, 16, .6)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdaXAR3-WPsxJGHUnxB9Xy8gDj6wSYdp-shg&usqp=CAU);
+  background-position: 0 0, -70vh -20vh;
+  background-size: auto, 360vh;
+  padding-top: 3vh;
+  padding-bottom: 0;
+  padding-left: 12vh;
+  color: white;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+* {
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.viewport {
+  width: 60vw;
+  height: 100vh;
+  margin-left: 1%;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Customize the scrollbar for .viewport */
+.viewport::-webkit-scrollbar {
+  width: 2px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+.viewport::-webkit-scrollbar-track {
+  background: #574b4b; /* Color of the scrollbar track */
+}
+
+/* Handle */
+.viewport::-webkit-scrollbar-thumb {
+  background: #ffffff; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Border radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+.viewport::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle on hover */
+}

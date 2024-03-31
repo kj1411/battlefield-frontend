@@ -1,0 +1,143 @@
+.content {
+    margin-top: 5%;
+    text-align: left;
+    font-family: Rajdhani, sans-serif
+}
+
+.server_name {
+    font-size: large;
+}
+
+.server_info * {
+    font-size: medium;
+}
+
+.server__current-stats-w {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 70%;
+    gap: 10px;
+  }
+  
+  .server__current-stats {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .server__current-stats-h {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .server__current-stats-i-w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .server__current-stats-i {
+    font-size: 20px;
+    font-weight: bold;
+    overflow-x: hidden;
+  }
+
+  .server__current-stats-iline {
+    margin: 0 5px;
+  }
+
+  .server__current-stats-ping,
+  .server__current-stats-hz {
+    font-size: 14px;
+  }
+
+.server_buttons Button{
+  background-color: transparent;
+  color: white;
+}
+
+.server_buttons Button:hover {
+  background-color: white;
+  color: black;
+  z-index: 3;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10px;
+    margin: 0.5% 40% 0% 0%;
+    width: 75%;
+  }
+  
+  .server_settings {
+    margin: 10px; /* Margin around the section */
+    padding: 10px; /* Padding inside the section */
+    color:white;
+  }
+  
+  .server_setting:hover {
+    color: black;
+    background-color: white;
+    z-index: 2;
+  }
+  
+  .server_settings-h { /* Headings */
+    font-size: small;
+    color: inherit;
+    margin-bottom: 5px;
+  }
+  
+  .server_setting { /* Settings (key-value pairs) */
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:0px 25px 2px 0px;
+    border-bottom:0.5px solid rgba(255, 255, 255, 0.911);
+    padding: 0%;
+  }
+  
+  .server_setting-text-key,.server_setting-text-value { 
+    overflow-x: hidden;
+    display: inline; 
+  }
+
+  .server_setting-text-key {
+    width:auto;
+    word-wrap: normal;
+    margin-right: 10%;
+  }
+
+  .server_setting-text-value {
+    display: inline;
+    text-align: right;
+    margin-right: 0%;
+    padding-right: 0%;
+  }
+
+  .map-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 7% 2%;
+    margin-bottom: 15%;
+  }
+
+  .server_map {
+    width:180px;
+    height:auto;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .map-content {
+    padding:5px 0px 20px 15px;
+  }
+
+  .server_map:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+}
+
+.server_map-image-w:hover {
+    transform: translateY(-5px);
+}

@@ -1,0 +1,13 @@
+.sidebarmenuright {
+    z-index: 3;
+    display: block;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: auto;
+    overflow: hidden;
+    width: 4.5%;
+    background-color:transparent;
+    border-right: 1px solid white;
+}
